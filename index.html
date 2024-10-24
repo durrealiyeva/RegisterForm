@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: "Nunito", sans-serif;
+        }
+    </style> 
+</head>
+<body>
+    <div class="mx-auto border border-[#E0E0E0] mt-[10px] w-[400px] rounded-[10px] ">
+        <div class="border-b p-[20px] text-center font-bold overflow-hidden">
+           <h3>User Register Form</h3>
+        </div>
+        <form id="form">
+            <div class="py-[20px] px-[17px] space-y-[16px]">
+                <!---
+                 <div class="text-red-500">
+                    <label class="block font-bold mb-[3px]">Name</label>
+                    <input class=" w-full p-[8px] outline-none h-[40px] border rounded-[5px] border-red-500" type="text">
+                    <p class="text-[13px] mt-[5px]">Please enter name</p>
+                </div>
+                -->
+
+                <div class="space-y-[16px]" id="formContent">
+
+                </div>
+
+                <div>
+                   <button type="submit" class="block bg-red-500  text-white w-full h-[40px] rounded-[5px]">Register</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
